@@ -1,0 +1,82 @@
+<mxfile host="65bd71144e">
+    <diagram id="5OuH3tvPspHAkRlcyEbU" name="Page-1">
+        <mxGraphModel dx="762" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="8" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="420" y="40" width="300" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry width="284.2105263157895" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry width="284.2105263157895" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry y="90" width="284.21" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="EquipeService" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="8">
+                    <mxGeometry x="102.63157894736841" y="10" width="78.94736842105262" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="- equipes: []" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="8">
+                    <mxGeometry x="-78.94736842105262" y="50" width="315.78947368421046" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="- adicionarEquipe(parametro): equipes [parametro]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="8">
+                    <mxGeometry x="-15.789473684210526" y="100" width="315.78947368421046" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="- listarEquipes(): equipe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="8">
+                    <mxGeometry x="-78.94894736842105" y="120" width="315.78947368421046" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="- listarEquipesPorID(parametro): void" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="8">
+                    <mxGeometry x="-40.00473684210526" y="140" width="315.78947368421046" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="- atualizarEquipe(aux, id, titulares):&amp;nbsp; equipe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="8">
+                    <mxGeometry x="-31.574736842105274" y="160" width="315.78947368421046" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="- deletarEquipe(parametro):&amp;nbsp; void" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="8">
+                    <mxGeometry x="-60.00473684210527" y="180" width="315.78947368421046" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="1..*&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22-%20atualizarEquipe(aux%2C%20id%2C%20titulares)%3A%26amp%3Bnbsp%3B%20equipe%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3Bcontainer%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22388.42526315789473%22%20y%3D%22200%22%20width%3D%22315.78947368421046%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8">
+                    <mxGeometry x="-60" y="60" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8">
+                    <mxGeometry x="-91.57" y="60" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="130" y="40" width="210" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="28">
+                    <mxGeometry x="20" width="180" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="28">
+                    <mxGeometry x="20" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="28">
+                    <mxGeometry x="20" y="100" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Equipe" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;container=0;" vertex="1" parent="28">
+                    <mxGeometry x="85" y="10" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="- nome: string" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="28">
+                    <mxGeometry x="20" y="40" width="105" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="- titulares: int" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="28">
+                    <mxGeometry x="20" y="60" width="105" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="- gerarId(): integ&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22-%20titulares%3A%20integ%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22150%22%20y%3D%22100%22%20width%3D%22105%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="28">
+                    <mxGeometry x="30" y="110" width="105" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="- calcularReservas(): int" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="28">
+                    <mxGeometry y="135" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="- calcularTotalJogadores(): int" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="28">
+                    <mxGeometry x="10" y="160" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="9" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
